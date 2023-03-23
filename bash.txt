@@ -1,0 +1,36 @@
+ alias ls='ls --color=auto'
+    #alias dir='dir --color=auto'
+    #alias vdir='vdir --color=auto'
+    alias lista='ls|vaca'
+    alias vaca='cowsay -r|lolcat --animate  --duration 5 '
+    alias vacarm='echo "borrado exitoso"|cowsay -r|lolcat'
+    alias remove='rm -rfi'
+    alias grep='grep --color=auto'
+    alias fgrep='fgrep --color=auto'
+    alias egrep='egrep --color=auto'
+    alias repo='git init'
+    alias f5='bash'
+    alias add='git add' #trackear archivos
+    alias status='git status' #revisar status de git
+    alias removegit='git rm --cached' #destrackear archivos
+    alias commit='git commit -m' #commit archivos nuevos
+    alias commitex='git commit -am' #commit archivos modificados
+    alias config='git config --list' # lista de configuraciones
+    alias configurar='git config --global' #configurar parametros de git
+    alias versions='git log --stat' # mostrar versiones com detalles de camios
+    alias cambios='git show' #mostrar los camios que se hicieron
+    alias compa='git diff' #comparar dos camios
+    alias recu='git reset --hard' #regresar versiones quitando las posteriores
+    alias check='git checkout' #regresar de forma segura 
+    alias rama='git branch' #crear una rama
+    alias fusion='git merge' #fusionar ramas
+    alias remote_add='git remote add origin' #añadir origen de github
+    alias remote_act='git remote set-url origin' #actualizar el origen de github
+    alias remote_rev="git remote -v" #revisar el origen de github
+    alias addgit='git push origin' #mandar a github
+    alias pull='git pull origin' #traer de github
+    alias llave='eval $(ssh-agent -s)' #revisar agente ssh
+    alias vs='echo "abriendo vs code"|vaca && code .'
+    alias abrir='echo "abriendo "|vaca && pwd|vaca'
+    alias xampp='sudo /opt/lampp/lampp start'
+    alias desktop='sudo /etc/init.d/xrdp start'
